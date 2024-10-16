@@ -1,0 +1,93 @@
+.weather {
+    place-self: center;
+    background: linear-gradient(135deg, #02aabd, #00cdac) ;
+    width: 80%;
+    max-width: 540px;
+        padding: 40px;
+        margin: 100px auto 1000px;
+        
+        border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.search-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    background: transparent;
+    font-size: 2.5rem;
+    border-radius: 30px;
+  
+    padding: 40px 0px 20px;
+    
+}
+
+
+.search-menu img {
+    width: 30px;
+    
+    margin-left: 10px;
+}
+
+
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+.temp_degree {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    
+
+}
+
+.location {
+    font-size: 40px;
+    margin-top: 4px;
+}
+
+p, span {
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+       
+}
+
+.class_icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+    
+    
+}
+
+
+.bottom .class_icons span {
+    display: block;
+    font-size: 16px;
+
+}
+
+.bottom .class_icons img {
+    width: 26px;
+    margin-top: 4px;
+    
+}
